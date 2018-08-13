@@ -1,0 +1,7 @@
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\bin\Debug\08EntrevistaDeTrabajo.exe.config
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\bin\Debug\08EntrevistaDeTrabajo.exe
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\bin\Debug\08EntrevistaDeTrabajo.pdb
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\obj\Debug\08EntrevistaDeTrabajo.csprojAssemblyReference.cache
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\obj\Debug\08EntrevistaDeTrabajo.csproj.CoreCompileInputs.cache
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\obj\Debug\08EntrevistaDeTrabajo.exe
+D:\Repositorio\Laborarotios\EntrevistaDeTrabajo\08EntrevistaDeTrabajo\obj\Debug\08EntrevistaDeTrabajo.pdb

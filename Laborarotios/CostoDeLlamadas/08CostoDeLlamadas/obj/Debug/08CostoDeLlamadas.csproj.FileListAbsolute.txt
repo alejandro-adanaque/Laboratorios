@@ -1,0 +1,7 @@
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\bin\Debug\08CostoDeLlamadas.exe.config
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\bin\Debug\08CostoDeLlamadas.exe
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\bin\Debug\08CostoDeLlamadas.pdb
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\obj\Debug\08CostoDeLlamadas.csprojAssemblyReference.cache
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\obj\Debug\08CostoDeLlamadas.csproj.CoreCompileInputs.cache
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\obj\Debug\08CostoDeLlamadas.exe
+D:\Repositorio\Laborarotios\CostoDeLlamadas\08CostoDeLlamadas\obj\Debug\08CostoDeLlamadas.pdb
