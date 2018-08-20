@@ -1,0 +1,10 @@
+E:\Repositorio\wf\Hola de Bienvenida\bin\Debug\Hola de Bienvenida.exe.config
+E:\Repositorio\wf\Hola de Bienvenida\bin\Debug\Hola de Bienvenida.exe
+E:\Repositorio\wf\Hola de Bienvenida\bin\Debug\Hola de Bienvenida.pdb
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola de Bienvenida.csprojAssemblyReference.cache
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola_de_Bienvenida.Form1.resources
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola_de_Bienvenida.Properties.Resources.resources
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola de Bienvenida.csproj.GenerateResource.cache
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola de Bienvenida.csproj.CoreCompileInputs.cache
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola de Bienvenida.exe
+E:\Repositorio\wf\Hola de Bienvenida\obj\Debug\Hola de Bienvenida.pdb
