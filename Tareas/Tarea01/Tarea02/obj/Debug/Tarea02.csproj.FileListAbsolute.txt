@@ -1,0 +1,7 @@
+D:\Programación 4S\Tareas\Tarea01\Tarea02\bin\Debug\Tarea02.exe.config
+D:\Programación 4S\Tareas\Tarea01\Tarea02\bin\Debug\Tarea02.exe
+D:\Programación 4S\Tareas\Tarea01\Tarea02\bin\Debug\Tarea02.pdb
+D:\Programación 4S\Tareas\Tarea01\Tarea02\obj\Debug\Tarea02.csproj.CoreCompileInputs.cache
+D:\Programación 4S\Tareas\Tarea01\Tarea02\obj\Debug\Tarea02.exe
+D:\Programación 4S\Tareas\Tarea01\Tarea02\obj\Debug\Tarea02.pdb
+D:\Programación 4S\Tareas\Tarea01\Tarea02\obj\Debug\Tarea02.csprojAssemblyReference.cache
