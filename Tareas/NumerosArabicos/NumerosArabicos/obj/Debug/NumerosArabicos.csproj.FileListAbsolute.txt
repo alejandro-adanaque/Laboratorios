@@ -1,0 +1,7 @@
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\bin\Debug\NumerosArabicos.exe.config
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\bin\Debug\NumerosArabicos.exe
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\bin\Debug\NumerosArabicos.pdb
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\obj\Debug\NumerosArabicos.csproj.CoreCompileInputs.cache
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\obj\Debug\NumerosArabicos.exe
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\obj\Debug\NumerosArabicos.pdb
+D:\Programación 4S\Tareas\NumerosArabicos\NumerosArabicos\obj\Debug\NumerosArabicos.csprojAssemblyReference.cache

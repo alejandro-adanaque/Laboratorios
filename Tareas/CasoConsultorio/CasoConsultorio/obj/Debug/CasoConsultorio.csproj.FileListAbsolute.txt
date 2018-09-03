@@ -1,0 +1,7 @@
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\bin\Debug\CasoConsultorio.exe.config
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\bin\Debug\CasoConsultorio.exe
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\bin\Debug\CasoConsultorio.pdb
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\obj\Debug\CasoConsultorio.csprojAssemblyReference.cache
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\obj\Debug\CasoConsultorio.csproj.CoreCompileInputs.cache
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\obj\Debug\CasoConsultorio.exe
+D:\Programación 4S\Tareas\CasoConsultorio\CasoConsultorio\obj\Debug\CasoConsultorio.pdb

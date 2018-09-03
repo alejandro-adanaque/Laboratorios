@@ -1,0 +1,7 @@
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\bin\Debug\ExpresionLiteralDeUnNumero.exe.config
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\bin\Debug\ExpresionLiteralDeUnNumero.exe
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\bin\Debug\ExpresionLiteralDeUnNumero.pdb
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\obj\Debug\ExpresionLiteralDeUnNumero.csprojAssemblyReference.cache
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\obj\Debug\ExpresionLiteralDeUnNumero.csproj.CoreCompileInputs.cache
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\obj\Debug\ExpresionLiteralDeUnNumero.exe
+D:\Programación 4S\Tareas\ExpresionLiteralDeUnNumero\ExpresionLiteralDeUnNumero\obj\Debug\ExpresionLiteralDeUnNumero.pdb
