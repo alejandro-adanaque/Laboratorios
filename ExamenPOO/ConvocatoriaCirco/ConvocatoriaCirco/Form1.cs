@@ -113,8 +113,8 @@ namespace ConvocatoriaCirco
 
         private void btnEvaluarRegistro_Click(object sender, EventArgs e)
         {
-            
-            MessageBox.Show("Usted esta Aprovado.");
+            string nombre = txtNombreYApellidos.Text;
+            MessageBox.Show($"Usted {nombre} esta Aprovado.");
             grpDtosGenerales2.Enabled = true;
             grpSueldoAproximado.Enabled = true;
         }
