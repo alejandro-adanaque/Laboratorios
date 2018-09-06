@@ -1,0 +1,10 @@
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\bin\Debug\ONPE.exe.config
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\bin\Debug\ONPE.exe
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\bin\Debug\ONPE.pdb
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.csprojAssemblyReference.cache
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.fmrSorteoDeMiembrosDeMesa.resources
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.Properties.Resources.resources
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.csproj.GenerateResource.cache
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.csproj.CoreCompileInputs.cache
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.exe
+D:\Programación 4S\ExamenPOO\ONPE\ONPE\obj\Debug\ONPE.pdb

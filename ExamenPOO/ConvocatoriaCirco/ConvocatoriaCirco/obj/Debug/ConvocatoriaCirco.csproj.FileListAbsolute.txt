@@ -1,0 +1,10 @@
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\bin\Debug\ConvocatoriaCirco.exe.config
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\bin\Debug\ConvocatoriaCirco.exe
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\bin\Debug\ConvocatoriaCirco.pdb
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.csprojAssemblyReference.cache
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.frmConvocatoriaCirco.resources
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.Properties.Resources.resources
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.csproj.GenerateResource.cache
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.csproj.CoreCompileInputs.cache
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.exe
+D:\Programación 4S\ExamenPOO\ConvocatoriaCirco\ConvocatoriaCirco\obj\Debug\ConvocatoriaCirco.pdb

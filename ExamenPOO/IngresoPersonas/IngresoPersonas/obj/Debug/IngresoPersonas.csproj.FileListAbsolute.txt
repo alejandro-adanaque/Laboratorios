@@ -1,0 +1,7 @@
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\bin\Debug\IngresoPersonas.exe.config
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\bin\Debug\IngresoPersonas.exe
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\bin\Debug\IngresoPersonas.pdb
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\obj\Debug\IngresoPersonas.csprojAssemblyReference.cache
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\obj\Debug\IngresoPersonas.csproj.CoreCompileInputs.cache
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\obj\Debug\IngresoPersonas.exe
+D:\Programación 4S\ExamenPOO\IngresoPersonas\IngresoPersonas\obj\Debug\IngresoPersonas.pdb
