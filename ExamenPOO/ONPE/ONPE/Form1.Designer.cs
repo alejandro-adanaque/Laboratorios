@@ -104,6 +104,7 @@
             this.btnAgregar.TabIndex = 8;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtNumero
             // 
@@ -175,7 +176,7 @@
             this.lstPersonas.FormattingEnabled = true;
             this.lstPersonas.Location = new System.Drawing.Point(12, 215);
             this.lstPersonas.Name = "lstPersonas";
-            this.lstPersonas.Size = new System.Drawing.Size(218, 173);
+            this.lstPersonas.Size = new System.Drawing.Size(266, 173);
             this.lstPersonas.TabIndex = 1;
             // 
             // label5
@@ -197,6 +198,7 @@
             this.rbUbigeo.TabStop = true;
             this.rbUbigeo.Text = "UBIGEO";
             this.rbUbigeo.UseVisualStyleBackColor = true;
+            this.rbUbigeo.CheckedChanged += new System.EventHandler(this.rbUbigeo_CheckedChanged);
             // 
             // rbDescripcion
             // 
@@ -208,6 +210,7 @@
             this.rbDescripcion.TabStop = true;
             this.rbDescripcion.Text = "DESCRIPCIÓN";
             this.rbDescripcion.UseVisualStyleBackColor = true;
+            this.rbDescripcion.CheckedChanged += new System.EventHandler(this.rbDescripcion_CheckedChanged);
             // 
             // grpAreaDeVotacion
             // 
@@ -241,6 +244,7 @@
             this.btnRegistrarSorteo.TabIndex = 14;
             this.btnRegistrarSorteo.Text = "Registrar Sorteo";
             this.btnRegistrarSorteo.UseVisualStyleBackColor = true;
+            this.btnRegistrarSorteo.Click += new System.EventHandler(this.btnRegistrarSorteo_Click);
             // 
             // txtMesaDeVotacion
             // 
@@ -264,6 +268,7 @@
             this.txtUbigeo.Name = "txtUbigeo";
             this.txtUbigeo.Size = new System.Drawing.Size(88, 20);
             this.txtUbigeo.TabIndex = 11;
+           
             // 
             // label10
             // 
@@ -342,6 +347,7 @@
             this.cboProvincia.Size = new System.Drawing.Size(109, 21);
             this.cboProvincia.TabIndex = 3;
             this.cboProvincia.SelectedIndexChanged += new System.EventHandler(this.cboProvincia_SelectedIndexChanged);
+            this.cboProvincia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cboProvincia_MouseClick);
             // 
             // label7
             // 
@@ -360,6 +366,7 @@
             this.cboDepartamento.Size = new System.Drawing.Size(109, 21);
             this.cboDepartamento.TabIndex = 1;
             this.cboDepartamento.SelectedIndexChanged += new System.EventHandler(this.cboDepartamento_SelectedIndexChanged);
+            this.cboDepartamento.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cboDepartamento_MouseClick);
             // 
             // label6
             // 
@@ -373,7 +380,7 @@
             // lstUbigeosSorteados
             // 
             this.lstUbigeosSorteados.FormattingEnabled = true;
-            this.lstUbigeosSorteados.Location = new System.Drawing.Point(284, 215);
+            this.lstUbigeosSorteados.Location = new System.Drawing.Point(299, 215);
             this.lstUbigeosSorteados.Name = "lstUbigeosSorteados";
             this.lstUbigeosSorteados.Size = new System.Drawing.Size(205, 173);
             this.lstUbigeosSorteados.TabIndex = 6;
@@ -389,7 +396,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(281, 199);
+            this.label12.Location = new System.Drawing.Point(296, 199);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(100, 13);
             this.label12.TabIndex = 8;

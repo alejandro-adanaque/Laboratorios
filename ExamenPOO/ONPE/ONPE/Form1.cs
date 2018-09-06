@@ -22,24 +22,28 @@ namespace ONPE
             cboProvincia.Enabled = true;
             cboDistrito.Enabled = true;
             cboDepartamento.Enabled = true;
+            btnRegistrarSorteo.Enabled = false;
+            
 
             cboDocumento.Items.Add("DNI");
             cboDocumento.Items.Add("Carnet Ext.");
             cboDepartamento.Items.Add("Lima");
+            this.cboDocumento.SelectedItem = null;
         }
 
         private void cboDepartamento_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-            cboProvincia.Items.Add("Lima");
-            cboProvincia.Items.Add("Huaral");
-            cboProvincia.Items.Add("Huarochiri");
-            cboProvincia.Enabled = true;
+            if (cboDepartamento.SelectedItem.ToString()=="Lima")
+            {
+                cboProvincia.Items.Add("Lima");
+                cboProvincia.Items.Add("Huaral");
+                cboProvincia.Items.Add("Huarochiri");
+            }
         }
         
         private void cboProvincia_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cboProvincia.SelectedItem.ToString() == "Lima")
+            if (cboProvincia.SelectedItem.ToString()=="Lima")
             {
                 cboDistrito.Items.Add("Lima");
                 cboDistrito.Items.Add("Ancon");
@@ -50,101 +54,240 @@ namespace ONPE
                 cboDistrito.Items.Add("Chaclacayo");
                 cboDistrito.Items.Add("Chorrillos");
                 cboDistrito.Items.Add("La Victoria");
-                
             }
-           
 
-            else if (cboProvincia.SelectedItem.ToString() == "Huaral")
+
+            else if (cboProvincia.SelectedItem.ToString()=="Huaral")
             {
                 cboDistrito.Items.Add("Huaral");
-                cboDistrito.Items.Add("Atavillos Altos");
-                cboDistrito.Items.Add("Atavillos Bajos");
+                cboDistrito.Items.Add("Atavillos Alto");
+                cboDistrito.Items.Add("Atavillos Bajo");
             }
-            
+
             else
             {
                 cboDistrito.Items.Add("Matucana");
                 cboDistrito.Items.Add("Antioquia");
                 cboDistrito.Items.Add("Callahuanca");
-                
+
             }
-            
         }
 
         private void cboDistrito_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string n = string.Empty;
+            int n1 = 0;
+            int n2 = 0;
+            int n3 = 0;
 
-            if (cboProvincia.SelectedIndex == 0)
+            if (cboDepartamento.SelectedIndex == 0)
             {
-
-                switch (cboDistrito.SelectedIndex)
+                n1 = 140;
+                switch(cboProvincia.SelectedItem)
                 {
-                    case 0:
-                        n = "140101";
+                    case "Lima":
+                        n2 = 1;
                         break;
-                    case 1:
-                        n = "140102";
+                    case "Huaral":
+                        n2 = 8;
                         break;
-                    case 2:
-                        n = "140103";
+                    case "Huarochiri":
+                        n2 = 6;
                         break;
-                    case 3:
-                        n = "140104";
+                }
+                switch (cboDistrito.SelectedItem)
+                {
+                    case "Lima":
+                        n3 = 001;
                         break;
-                    case 4:
-                        n = "140105";
+                    case "Ancon":
+                        n3 = 02;
                         break;
-                    case 5:
-                        n = "140106";
+                    case "Ate":
+                        n3 = 03;
                         break;
-                    case 6:
-                        n = "140107";
+                    case "Breña":
+                        n3 = 04;
                         break;
-                    case 7:
-                        n = "140108";
+                    case "Carabayllo":
+                        n3 = 05;
                         break;
-                    case 8:
-                        n = "140109";
+                    case "Comas":
+                        n3 = 06;
                         break;
-
+                    case "Chaclacayo":
+                        n3 = 07;
+                        break;
+                    case "Chorrillos":
+                        n3 = 08;
+                        break;
+                    case "La victoria":
+                        n3 = 09;
+                        break;
+                    case "Huaral":
+                        n3 = 01;
+                        break;
+                    case "Atavillos Alto":
+                        n3 = 02;
+                        break;
+                    case "Atavillos Bajo":
+                        n3 = 03;
+                        break;
+                    case "Matucana":
+                        n3 = 01;
+                        break;
+                    case "Atioquia":
+                        n3 = 02;
+                        break;
+                    case "Callahuanca":
+                        n3 = 03;
+                        break;
                 }
             }
-            else if (cboProvincia.SelectedIndex == 1)
+            txtUbigeo.Text = $"{n1}{n2}0{n3}";
+        }
+
+        private void cboDepartamento_MouseClick(object sender, MouseEventArgs e)
+        {
+            cboProvincia.Items.Clear();
+        }
+
+        private void cboProvincia_MouseClick(object sender, MouseEventArgs e)
+        {
+            cboDistrito.Items.Clear();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            string apellidos = txtApellidos.Text;
+            string nombres = txtNombres.Text;
+            string numeroID = txtNumero.Text;
+            string id = cboDocumento.SelectedItem.ToString();
+            
+            int numeroPersonas = lstPersonas.Items.Count;
+            int numeroPersonas2 = numeroPersonas + 1;
+            
+            if (numeroPersonas2 >= 8)
             {
-                switch (cboDistrito.SelectedIndex)
-                {
-                    case 0:
-                        n = "140801";
-                        break;
-                    case 1:
-                        n = "140802";
-                        break;
-                    case 2:
-                        n = "140803";
-                        break;
-                }
+                btnRegistrarSorteo.Enabled = true;
             }
             else
             {
-                switch (cboDistrito.SelectedIndex)
+                btnRegistrarSorteo.Enabled = false;
+            }
+            
+            //Imprimir en la lista 
+            lstPersonas.Items.Add($"{apellidos} {nombres} - {id} {numeroID}");
+
+            //Imprimir el label
+            lblNumeroPersonas.Text = ($"Nro.Personas: {numeroPersonas2}");
+
+            //Borramos los datos para poner otros
+            txtApellidos.Clear();
+            txtNombres.Clear();
+            txtNumero.Clear();
+            txtApellidos.Focus();
+        }
+
+        private void rbDescripcion_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbDescripcion.Checked)
+            {
+                cboDepartamento.Enabled = true;
+                cboDistrito.Enabled = true;
+                cboProvincia.Enabled = true;
+                txtUbigeo.Enabled = false;
+            }
+        }
+
+        private void rbUbigeo_CheckedChanged(object sender, EventArgs e)
+        {
+            txtUbigeo.Enabled = true;
+            cboDepartamento.Enabled = false;
+            cboDistrito.Enabled = false;
+            cboProvincia.Enabled = false;
+          
+            
+        }
+
+
+
+        private void btnRegistrarSorteo_Click(object sender, EventArgs e)
+        {
+            string ubigeo = txtUbigeo.Text;
+
+            if (ubigeo == String.Empty || txtMesaDeVotacion.Text == string.Empty)
+            {
+                MessageBox.Show("Faltan Datos", "Alerta");
+            }
+            else
+            {
+                if (rbUbigeo.Checked)
                 {
-                    case 0:
-                        n = "140601";
-                        break;
-                    case 1:
-                        n = "140602";
-                        break;
-                    case 2:
-                        n = "140603";
-                        break;
+
+
+                    switch (ubigeo)
+                    {
+                        case "140101":
+                            lstUbigeosSorteados.Items.Add($"140101-Lima");
+                            break;
+                        case "140102":
+                            lstUbigeosSorteados.Items.Add($"140102-Lima");
+                            break;
+                        case "140103":
+                            lstUbigeosSorteados.Items.Add($"140103-Lima");
+                            break;
+                        case "140104":
+                            lstUbigeosSorteados.Items.Add($"140104-Lima");
+                            break;
+                        case "140105":
+                            lstUbigeosSorteados.Items.Add($"140105-Lima");
+                            break;
+                        case "140106":
+                            lstUbigeosSorteados.Items.Add($"140106-Lima");
+                            break;
+                        case "140107":
+                            lstUbigeosSorteados.Items.Add($"140107-Lima");
+                            break;
+                        case "140108":
+                            lstUbigeosSorteados.Items.Add($"140108-Lima");
+                            break;
+                        case "140109":
+                            lstUbigeosSorteados.Items.Add($"140109-Lima");
+                            break;
+                        case "140801":
+                            lstUbigeosSorteados.Items.Add($"140801-Huaral");
+                            break;
+                        case "140802":
+                            lstUbigeosSorteados.Items.Add($"140802-Huaral");
+                            break;
+                        case "140803":
+                            lstUbigeosSorteados.Items.Add($"140803-Huaral");
+                            break;
+                        case "140601":
+                            lstUbigeosSorteados.Items.Add($"140601-Huarochiri");
+                            break;
+                        case "140602":
+                            lstUbigeosSorteados.Items.Add($"140602-Huarochiri");
+                            break;
+                        case "140603":
+                            lstUbigeosSorteados.Items.Add($"140603-Huarochiri");
+                            break;
+                        default:
+                            MessageBox.Show("No se encontro este UBIGEO");
+                            break;
+                    }
+                    MessageBox.Show("Correcto");
+                    txtUbigeo.Clear();
+                    txtMesaDeVotacion.Clear();
+                }
+                else
+                {
+                    txtUbigeo.Clear();
+                    txtMesaDeVotacion.Clear();
+                    lstUbigeosSorteados.Items.Add($"{ubigeo} - {cboProvincia.SelectedItem}");
                 }
             }
-            txtUbigeo.Text = n;
-            cboDepartamento.Items.Remove(cboProvincia.SelectedIndex);
-            cboProvincia.Items.Remove(cboProvincia.SelectedIndex);
-            cboDistrito.Items.Remove(cboDistrito.SelectedIndex);
-            lstUbigeosSorteados.Items.Add($"{n} - {cboProvincia.SelectedItem}");
+        }
         }
     }
-}
+
