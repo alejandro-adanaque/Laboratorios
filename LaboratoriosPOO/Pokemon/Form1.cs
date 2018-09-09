@@ -15,6 +15,42 @@ namespace Pokemon
         static int nuFilas = 1;
         static string img_Pokemon = "D:/LaboratoriosPOO/Pokemon/ImgPokémon";
         static string img_Entrenador = "D:/LaboratoriosPOO/Pokemon/ImgEntrenador";
+        static List<Pokemons> lstPokesRivales = new List<Pokemons>();
+
+        public Pokemons obtenerPokemonRival()
+        {
+            Random rnd = new Random();
+            int indices = rnd.Next(0,4);
+            return lstPokesRivales[indices];
+        }
+
+        public void crearPokemonesRivales()
+        {
+            Pokemons miPokemon1 = new Pokemons("Psyduck","Pato","Humedad",19,8,"Amarillo","Mar");
+            Pokemons miPokemon2 = new Pokemons("Meowth", "Gato", "Experto", 4, 4, "Gris", "Bosque");
+            Pokemons miPokemon3 = new Pokemons("Gastly", "Bola", "Gas", 1, 3, "Marron", "Fango");
+            Pokemons miPokemon4 = new Pokemons("Onix", "Serpiente", "Terremoto", 35, 3, "Gris", "Cuevas");
+            Pokemons miPokemon5 = new Pokemons("Snorlax", "Oso", "Dormir", 40, 2, "Plomo", "Bosque");
+            lstPokesRivales.Add(miPokemon1);
+            lstPokesRivales.Add(miPokemon2);
+            lstPokesRivales.Add(miPokemon3);
+            lstPokesRivales.Add(miPokemon4);
+            lstPokesRivales.Add(miPokemon5);
+
+        }
+
+        public void mostrarDatosPokemonRival(Pokemons poke)
+        {
+            txtNombreSist.Text = poke.Nombre.ToString();
+            txtEspecieSist.Text = poke.Especie.ToString();
+            txtHabilidadSist.Text = poke.Habilidad.ToString();
+            txtPesoSist.Text = poke.Peso.ToString();
+            txtAlturaSist.Text = poke.Altura.ToString();
+            txtColorSist.Text = poke.Color.ToString();
+            txtHabitadSist.Text = poke.Habitad.ToString();
+              
+        }
+
         public frmPokemons()
         {
             InitializeComponent();
@@ -33,7 +69,8 @@ namespace Pokemon
 
         private void frmPokemons_Load(object sender, EventArgs e)
         {
-
+            crearPokemonesRivales();
+        
             //Inicializando Colores
             cboColorPokemon.Items.Add("-Seleccione Color-");
             cboColorPokemon.Items.Add("Amarillo");
@@ -52,16 +89,17 @@ namespace Pokemon
             
             cboNombre.SelectedIndex = 0;
             
-            cboColorPokemon.SelectedIndex = 0;
+           cboColorPokemon.SelectedIndex = 0;
 
             //Entrenadores
             cboEntrenador.Items.Add("-Selecciona un Entrenador-");
-            cboEntrenador.Items.Add("Brock");
-            cboEntrenador.Items.Add("Misty");
-            cboEntrenador.Items.Add("Azul");
+            cboEntrenador.Items.Add("Erico");
+            cboEntrenador.Items.Add("Petra");
+            cboEntrenador.Items.Add("Candela");
            // cboEntrenador.Items.Add("Lt.Surge");
             cboEntrenador.SelectedIndex = 0;
 
+            imgPokemonSist.ImageLocation = img_Pokemon + "/pokeball.png";
 
             //MessageBox.Show("Bienvenido al entorno Pokemon... \n Deberá crear sus pokemones y agregarlos a la lista", "Mensaje");
         }
@@ -77,6 +115,7 @@ namespace Pokemon
                 double _altura = Double.Parse(txtAlturaPokemon.Text);
                 string _color = cboColorPokemon.SelectedItem.ToString();
                 string _habitad = txtHabitadPokemon.Text;
+                
 
                 if (_nombre.Equals(string.Empty))
                 {
@@ -95,6 +134,13 @@ namespace Pokemon
                     //Agregar el pokemon a la Grilla/Grid/Tabla/GridView
                     dgbPokemons.Rows.Add(nuFilas++, pokemon1.Nombre, pokemon1.Especie, pokemon1.Habilidad, pokemon1.Peso, pokemon1.Altura, pokemon1.Color, pokemon1.Habitad);
                 }
+
+                //Elegir pokemon rival
+                Pokemons pokeRival = obtenerPokemonRival();
+
+                //Imprimir
+                mostrarDatosPokemonRival(pokeRival);
+
             }
             catch(Exception ex)
             {
@@ -141,25 +187,26 @@ namespace Pokemon
         private void cboEntrenador_SelectedIndexChanged(object sender, EventArgs e)
         {
             
-            if (cboEntrenador.SelectedItem.ToString() == "Brock")
+            if (cboEntrenador.SelectedItem.ToString() == "Erico")
             {
-                imgEntrenador.ImageLocation = img_Entrenador + "/VS_Brock.png";
-                cboNombre.Items.Add("Charmander");
-            }
-
-            else if (cboEntrenador.SelectedItem.ToString() == "Misty")
-            {
-                imgEntrenador.ImageLocation = img_Entrenador + "/VS_Misty.png";
+                imgEntrenador.ImageLocation = img_Entrenador + "/erico.png";
                 cboNombre.Items.Add("Squirtle");
             }
-            else if (cboEntrenador.SelectedItem.ToString() == "Azul")
+
+            else if (cboEntrenador.SelectedItem.ToString() == "Petra")
             {
-                imgEntrenador.ImageLocation = img_Entrenador + "/VS_Azul.png";
+                imgEntrenador.ImageLocation = img_Entrenador + "/petra.png";
                 cboNombre.Items.Add("Bulbasaur");
+            }
+            else if (cboEntrenador.SelectedItem.ToString() == "Candela")
+            {
+                imgEntrenador.ImageLocation = img_Entrenador + "/candela.png";
+                
+                cboNombre.Items.Add("Charmander");
             }
             else if (cboEntrenador.SelectedIndex == 0)
             {
-                imgEntrenador.ImageLocation = img_Entrenador + "/xxx046-512.png";
+                imgEntrenador.ImageLocation = img_Pokemon + "/pokeball.png";
             }
            
             //else if (cboEntrenador.SelectedItem.ToString() == "Lt.Surge")
@@ -172,6 +219,11 @@ namespace Pokemon
         {
             //cboEntrenador.Items.Clear();
             cboNombre.Items.Clear();
+        }
+
+        private void rbM_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

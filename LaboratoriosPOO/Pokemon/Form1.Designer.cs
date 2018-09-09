@@ -58,24 +58,42 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cboNombre = new System.Windows.Forms.ComboBox();
             this.grpPokémon = new System.Windows.Forms.GroupBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtEdadEntrenador = new System.Windows.Forms.TextBox();
-            this.rbM = new System.Windows.Forms.RadioButton();
-            this.rbF = new System.Windows.Forms.RadioButton();
-            this.imgEntrenador = new System.Windows.Forms.PictureBox();
             this.cboEntrenador = new System.Windows.Forms.ComboBox();
+            this.imgEntrenador = new System.Windows.Forms.PictureBox();
+            this.rbF = new System.Windows.Forms.RadioButton();
+            this.rbM = new System.Windows.Forms.RadioButton();
+            this.txtEdadEntrenador = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.imgPokemonSist = new System.Windows.Forms.PictureBox();
+            this.lbl25 = new System.Windows.Forms.Label();
+            this.txtHabitadSist = new System.Windows.Forms.TextBox();
+            this.lblColor = new System.Windows.Forms.Label();
+            this.lblAltu = new System.Windows.Forms.Label();
+            this.txtAlturaSist = new System.Windows.Forms.TextBox();
+            this.lblPeso = new System.Windows.Forms.Label();
+            this.txtPesoSist = new System.Windows.Forms.TextBox();
+            this.txtHabilidadSist = new System.Windows.Forms.TextBox();
+            this.lblhabilidad = new System.Windows.Forms.Label();
+            this.txtEspecieSist = new System.Windows.Forms.TextBox();
+            this.lblEsp = new System.Windows.Forms.Label();
+            this.lbl23 = new System.Windows.Forms.Label();
+            this.txtNombreSist = new System.Windows.Forms.TextBox();
+            this.txtColorSist = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgbPokemons)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPokemon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpPokémon.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgEntrenador)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPokemonSist)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -90,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(5, 73);
+            this.label2.Location = new System.Drawing.Point(5, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 2;
@@ -98,7 +116,7 @@
             // 
             // txtEspeciePokemon
             // 
-            this.txtEspeciePokemon.Location = new System.Drawing.Point(68, 70);
+            this.txtEspeciePokemon.Location = new System.Drawing.Point(68, 55);
             this.txtEspeciePokemon.Name = "txtEspeciePokemon";
             this.txtEspeciePokemon.Size = new System.Drawing.Size(121, 20);
             this.txtEspeciePokemon.TabIndex = 3;
@@ -106,7 +124,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 112);
+            this.label3.Location = new System.Drawing.Point(7, 84);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 13);
             this.label3.TabIndex = 4;
@@ -114,14 +132,14 @@
             // 
             // txtHabilidadPokemon
             // 
-            this.txtHabilidadPokemon.Location = new System.Drawing.Point(68, 109);
+            this.txtHabilidadPokemon.Location = new System.Drawing.Point(68, 81);
             this.txtHabilidadPokemon.Name = "txtHabilidadPokemon";
             this.txtHabilidadPokemon.Size = new System.Drawing.Size(121, 20);
             this.txtHabilidadPokemon.TabIndex = 5;
             // 
             // txtPesoPokemon
             // 
-            this.txtPesoPokemon.Location = new System.Drawing.Point(68, 152);
+            this.txtPesoPokemon.Location = new System.Drawing.Point(68, 109);
             this.txtPesoPokemon.Name = "txtPesoPokemon";
             this.txtPesoPokemon.Size = new System.Drawing.Size(50, 20);
             this.txtPesoPokemon.TabIndex = 6;
@@ -129,7 +147,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 155);
+            this.label4.Location = new System.Drawing.Point(7, 112);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 7;
@@ -148,7 +166,7 @@
             this.altura,
             this.color,
             this.habitad});
-            this.dgbPokemons.Location = new System.Drawing.Point(49, 641);
+            this.dgbPokemons.Location = new System.Drawing.Point(49, 561);
             this.dgbPokemons.Name = "dgbPokemons";
             this.dgbPokemons.ReadOnly = true;
             this.dgbPokemons.Size = new System.Drawing.Size(707, 235);
@@ -207,7 +225,7 @@
             // 
             // txtAlturaPokemon
             // 
-            this.txtAlturaPokemon.Location = new System.Drawing.Point(68, 199);
+            this.txtAlturaPokemon.Location = new System.Drawing.Point(68, 135);
             this.txtAlturaPokemon.Name = "txtAlturaPokemon";
             this.txtAlturaPokemon.Size = new System.Drawing.Size(50, 20);
             this.txtAlturaPokemon.TabIndex = 9;
@@ -215,7 +233,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 202);
+            this.label5.Location = new System.Drawing.Point(8, 138);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 13);
             this.label5.TabIndex = 10;
@@ -224,7 +242,7 @@
             // cboColorPokemon
             // 
             this.cboColorPokemon.FormattingEnabled = true;
-            this.cboColorPokemon.Location = new System.Drawing.Point(68, 243);
+            this.cboColorPokemon.Location = new System.Drawing.Point(68, 161);
             this.cboColorPokemon.Name = "cboColorPokemon";
             this.cboColorPokemon.Size = new System.Drawing.Size(121, 21);
             this.cboColorPokemon.TabIndex = 11;
@@ -232,7 +250,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 246);
+            this.label6.Location = new System.Drawing.Point(8, 164);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 13);
             this.label6.TabIndex = 12;
@@ -240,7 +258,7 @@
             // 
             // txtHabitadPokemon
             // 
-            this.txtHabitadPokemon.Location = new System.Drawing.Point(68, 299);
+            this.txtHabitadPokemon.Location = new System.Drawing.Point(68, 190);
             this.txtHabitadPokemon.Name = "txtHabitadPokemon";
             this.txtHabitadPokemon.Size = new System.Drawing.Size(121, 20);
             this.txtHabitadPokemon.TabIndex = 13;
@@ -249,7 +267,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 302);
+            this.label7.Location = new System.Drawing.Point(5, 193);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 13);
             this.label7.TabIndex = 14;
@@ -257,9 +275,9 @@
             // 
             // imgPokemon
             // 
-            this.imgPokemon.Location = new System.Drawing.Point(204, 28);
+            this.imgPokemon.Location = new System.Drawing.Point(228, 19);
             this.imgPokemon.Name = "imgPokemon";
-            this.imgPokemon.Size = new System.Drawing.Size(233, 291);
+            this.imgPokemon.Size = new System.Drawing.Size(191, 206);
             this.imgPokemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgPokemon.TabIndex = 15;
             this.imgPokemon.TabStop = false;
@@ -267,7 +285,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Enabled = false;
-            this.btnAgregar.Location = new System.Drawing.Point(50, 346);
+            this.btnAgregar.Location = new System.Drawing.Point(46, 252);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(98, 23);
             this.btnAgregar.TabIndex = 16;
@@ -277,7 +295,7 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(181, 346);
+            this.btnLimpiar.Location = new System.Drawing.Point(183, 252);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(98, 23);
             this.btnLimpiar.TabIndex = 17;
@@ -301,9 +319,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(835, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(788, -4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(69, 66);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
@@ -338,23 +356,10 @@
             this.grpPokémon.Controls.Add(this.label1);
             this.grpPokémon.Location = new System.Drawing.Point(49, 254);
             this.grpPokémon.Name = "grpPokémon";
-            this.grpPokémon.Size = new System.Drawing.Size(457, 381);
+            this.grpPokémon.Size = new System.Drawing.Size(457, 301);
             this.grpPokémon.TabIndex = 22;
             this.grpPokémon.TabStop = false;
             this.grpPokémon.Text = "Pokémon:";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(437, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(69, 42);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 23;
-            this.pictureBox2.TabStop = false;
             // 
             // groupBox1
             // 
@@ -373,50 +378,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Entrenador:";
             // 
-            // label9
+            // cboEntrenador
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(14, 82);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(45, 13);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Genero:";
+            this.cboEntrenador.FormattingEnabled = true;
+            this.cboEntrenador.Location = new System.Drawing.Point(78, 38);
+            this.cboEntrenador.Name = "cboEntrenador";
+            this.cboEntrenador.Size = new System.Drawing.Size(121, 21);
+            this.cboEntrenador.TabIndex = 22;
+            this.cboEntrenador.SelectedIndexChanged += new System.EventHandler(this.cboEntrenador_SelectedIndexChanged);
+            this.cboEntrenador.Click += new System.EventHandler(this.cboEntrenador_Click);
             // 
-            // label10
+            // imgEntrenador
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(14, 121);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(35, 13);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Edad:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 41);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(47, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "Nombre:";
-            // 
-            // txtEdadEntrenador
-            // 
-            this.txtEdadEntrenador.Location = new System.Drawing.Point(78, 118);
-            this.txtEdadEntrenador.Name = "txtEdadEntrenador";
-            this.txtEdadEntrenador.Size = new System.Drawing.Size(121, 20);
-            this.txtEdadEntrenador.TabIndex = 7;
-            // 
-            // rbM
-            // 
-            this.rbM.AutoSize = true;
-            this.rbM.Location = new System.Drawing.Point(78, 82);
-            this.rbM.Name = "rbM";
-            this.rbM.Size = new System.Drawing.Size(34, 17);
-            this.rbM.TabIndex = 8;
-            this.rbM.TabStop = true;
-            this.rbM.Text = "M";
-            this.rbM.UseVisualStyleBackColor = true;
+            this.imgEntrenador.Location = new System.Drawing.Point(228, 13);
+            this.imgEntrenador.Name = "imgEntrenador";
+            this.imgEntrenador.Size = new System.Drawing.Size(191, 161);
+            this.imgEntrenador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgEntrenador.TabIndex = 10;
+            this.imgEntrenador.TabStop = false;
             // 
             // rbF
             // 
@@ -429,45 +408,239 @@
             this.rbF.Text = "F";
             this.rbF.UseVisualStyleBackColor = true;
             // 
-            // imgEntrenador
+            // rbM
             // 
-            this.imgEntrenador.Location = new System.Drawing.Point(279, 28);
-            this.imgEntrenador.Name = "imgEntrenador";
-            this.imgEntrenador.Size = new System.Drawing.Size(127, 133);
-            this.imgEntrenador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgEntrenador.TabIndex = 10;
-            this.imgEntrenador.TabStop = false;
+            this.rbM.AutoSize = true;
+            this.rbM.Checked = true;
+            this.rbM.Location = new System.Drawing.Point(78, 82);
+            this.rbM.Name = "rbM";
+            this.rbM.Size = new System.Drawing.Size(34, 17);
+            this.rbM.TabIndex = 8;
+            this.rbM.TabStop = true;
+            this.rbM.Text = "M";
+            this.rbM.UseVisualStyleBackColor = true;
+            this.rbM.CheckedChanged += new System.EventHandler(this.rbM_CheckedChanged);
             // 
-            // cboEntrenador
+            // txtEdadEntrenador
             // 
-            this.cboEntrenador.FormattingEnabled = true;
-            this.cboEntrenador.Location = new System.Drawing.Point(78, 38);
-            this.cboEntrenador.Name = "cboEntrenador";
-            this.cboEntrenador.Size = new System.Drawing.Size(121, 21);
-            this.cboEntrenador.TabIndex = 22;
-            this.cboEntrenador.SelectedIndexChanged += new System.EventHandler(this.cboEntrenador_SelectedIndexChanged);
-            this.cboEntrenador.Click += new System.EventHandler(this.cboEntrenador_Click);
+            this.txtEdadEntrenador.Location = new System.Drawing.Point(78, 118);
+            this.txtEdadEntrenador.Name = "txtEdadEntrenador";
+            this.txtEdadEntrenador.Size = new System.Drawing.Size(121, 20);
+            this.txtEdadEntrenador.TabIndex = 7;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(14, 41);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 13);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "Nombre:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(14, 121);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(35, 13);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Edad:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(14, 82);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(45, 13);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Genero:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Forte", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label12.Location = new System.Drawing.Point(642, 321);
+            this.label12.Location = new System.Drawing.Point(594, 259);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 70);
             this.label12.TabIndex = 25;
             this.label12.Text = "VS.";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(489, -4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(69, 66);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 26;
+            this.pictureBox3.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtColorSist);
+            this.groupBox2.Controls.Add(this.txtNombreSist);
+            this.groupBox2.Controls.Add(this.imgPokemonSist);
+            this.groupBox2.Controls.Add(this.lbl25);
+            this.groupBox2.Controls.Add(this.txtHabitadSist);
+            this.groupBox2.Controls.Add(this.lblColor);
+            this.groupBox2.Controls.Add(this.lblAltu);
+            this.groupBox2.Controls.Add(this.txtAlturaSist);
+            this.groupBox2.Controls.Add(this.lblPeso);
+            this.groupBox2.Controls.Add(this.txtPesoSist);
+            this.groupBox2.Controls.Add(this.txtHabilidadSist);
+            this.groupBox2.Controls.Add(this.lblhabilidad);
+            this.groupBox2.Controls.Add(this.txtEspecieSist);
+            this.groupBox2.Controls.Add(this.lblEsp);
+            this.groupBox2.Controls.Add(this.lbl23);
+            this.groupBox2.Location = new System.Drawing.Point(788, 162);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(457, 243);
+            this.groupBox2.TabIndex = 27;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Pokémon:";
+            // 
+            // imgPokemonSist
+            // 
+            this.imgPokemonSist.Location = new System.Drawing.Point(228, 19);
+            this.imgPokemonSist.Name = "imgPokemonSist";
+            this.imgPokemonSist.Size = new System.Drawing.Size(191, 206);
+            this.imgPokemonSist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgPokemonSist.TabIndex = 15;
+            this.imgPokemonSist.TabStop = false;
+            // 
+            // lbl25
+            // 
+            this.lbl25.AutoSize = true;
+            this.lbl25.Location = new System.Drawing.Point(5, 193);
+            this.lbl25.Name = "lbl25";
+            this.lbl25.Size = new System.Drawing.Size(47, 13);
+            this.lbl25.TabIndex = 14;
+            this.lbl25.Text = "Habitad:";
+            // 
+            // txtHabitadSist
+            // 
+            this.txtHabitadSist.Enabled = false;
+            this.txtHabitadSist.Location = new System.Drawing.Point(68, 190);
+            this.txtHabitadSist.Name = "txtHabitadSist";
+            this.txtHabitadSist.Size = new System.Drawing.Size(121, 20);
+            this.txtHabitadSist.TabIndex = 13;
+            // 
+            // lblColor
+            // 
+            this.lblColor.AutoSize = true;
+            this.lblColor.Location = new System.Drawing.Point(8, 164);
+            this.lblColor.Name = "lblColor";
+            this.lblColor.Size = new System.Drawing.Size(34, 13);
+            this.lblColor.TabIndex = 12;
+            this.lblColor.Text = "Color:";
+            // 
+            // lblAltu
+            // 
+            this.lblAltu.AutoSize = true;
+            this.lblAltu.Location = new System.Drawing.Point(8, 138);
+            this.lblAltu.Name = "lblAltu";
+            this.lblAltu.Size = new System.Drawing.Size(51, 13);
+            this.lblAltu.TabIndex = 10;
+            this.lblAltu.Text = "Altura(m):";
+            // 
+            // txtAlturaSist
+            // 
+            this.txtAlturaSist.Enabled = false;
+            this.txtAlturaSist.Location = new System.Drawing.Point(68, 135);
+            this.txtAlturaSist.Name = "txtAlturaSist";
+            this.txtAlturaSist.Size = new System.Drawing.Size(50, 20);
+            this.txtAlturaSist.TabIndex = 9;
+            // 
+            // lblPeso
+            // 
+            this.lblPeso.AutoSize = true;
+            this.lblPeso.Location = new System.Drawing.Point(7, 112);
+            this.lblPeso.Name = "lblPeso";
+            this.lblPeso.Size = new System.Drawing.Size(53, 13);
+            this.lblPeso.TabIndex = 7;
+            this.lblPeso.Text = "Peso(Kg):";
+            // 
+            // txtPesoSist
+            // 
+            this.txtPesoSist.Enabled = false;
+            this.txtPesoSist.Location = new System.Drawing.Point(68, 109);
+            this.txtPesoSist.Name = "txtPesoSist";
+            this.txtPesoSist.Size = new System.Drawing.Size(50, 20);
+            this.txtPesoSist.TabIndex = 6;
+            // 
+            // txtHabilidadSist
+            // 
+            this.txtHabilidadSist.Enabled = false;
+            this.txtHabilidadSist.Location = new System.Drawing.Point(68, 81);
+            this.txtHabilidadSist.Name = "txtHabilidadSist";
+            this.txtHabilidadSist.Size = new System.Drawing.Size(121, 20);
+            this.txtHabilidadSist.TabIndex = 5;
+            // 
+            // lblhabilidad
+            // 
+            this.lblhabilidad.AutoSize = true;
+            this.lblhabilidad.Location = new System.Drawing.Point(7, 84);
+            this.lblhabilidad.Name = "lblhabilidad";
+            this.lblhabilidad.Size = new System.Drawing.Size(54, 13);
+            this.lblhabilidad.TabIndex = 4;
+            this.lblhabilidad.Text = "Habilidad:";
+            // 
+            // txtEspecieSist
+            // 
+            this.txtEspecieSist.Enabled = false;
+            this.txtEspecieSist.Location = new System.Drawing.Point(68, 55);
+            this.txtEspecieSist.Name = "txtEspecieSist";
+            this.txtEspecieSist.Size = new System.Drawing.Size(121, 20);
+            this.txtEspecieSist.TabIndex = 3;
+            // 
+            // lblEsp
+            // 
+            this.lblEsp.AutoSize = true;
+            this.lblEsp.Location = new System.Drawing.Point(5, 58);
+            this.lblEsp.Name = "lblEsp";
+            this.lblEsp.Size = new System.Drawing.Size(48, 13);
+            this.lblEsp.TabIndex = 2;
+            this.lblEsp.Text = "Especie:";
+            // 
+            // lbl23
+            // 
+            this.lbl23.AutoSize = true;
+            this.lbl23.Location = new System.Drawing.Point(5, 31);
+            this.lbl23.Name = "lbl23";
+            this.lbl23.Size = new System.Drawing.Size(47, 13);
+            this.lbl23.TabIndex = 0;
+            this.lbl23.Text = "Nombre:";
+            // 
+            // txtNombreSist
+            // 
+            this.txtNombreSist.Enabled = false;
+            this.txtNombreSist.Location = new System.Drawing.Point(68, 31);
+            this.txtNombreSist.Name = "txtNombreSist";
+            this.txtNombreSist.Size = new System.Drawing.Size(121, 20);
+            this.txtNombreSist.TabIndex = 18;
+            // 
+            // txtColorSist
+            // 
+            this.txtColorSist.Enabled = false;
+            this.txtColorSist.Location = new System.Drawing.Point(68, 164);
+            this.txtColorSist.Name = "txtColorSist";
+            this.txtColorSist.Size = new System.Drawing.Size(121, 20);
+            this.txtColorSist.TabIndex = 19;
             // 
             // frmPokemons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(1264, 888);
+            this.ClientSize = new System.Drawing.Size(1264, 822);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.grpPokémon);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
@@ -480,10 +653,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpPokémon.ResumeLayout(false);
             this.grpPokémon.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgEntrenador)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPokemonSist)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -520,7 +696,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn habitad;
         private System.Windows.Forms.ComboBox cboNombre;
         private System.Windows.Forms.GroupBox grpPokémon;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -531,6 +706,23 @@
         private System.Windows.Forms.RadioButton rbM;
         private System.Windows.Forms.TextBox txtEdadEntrenador;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtColorSist;
+        private System.Windows.Forms.TextBox txtNombreSist;
+        private System.Windows.Forms.PictureBox imgPokemonSist;
+        private System.Windows.Forms.Label lbl25;
+        private System.Windows.Forms.TextBox txtHabitadSist;
+        private System.Windows.Forms.Label lblColor;
+        private System.Windows.Forms.Label lblAltu;
+        private System.Windows.Forms.TextBox txtAlturaSist;
+        private System.Windows.Forms.Label lblPeso;
+        private System.Windows.Forms.TextBox txtPesoSist;
+        private System.Windows.Forms.TextBox txtHabilidadSist;
+        private System.Windows.Forms.Label lblhabilidad;
+        private System.Windows.Forms.TextBox txtEspecieSist;
+        private System.Windows.Forms.Label lblEsp;
+        private System.Windows.Forms.Label lbl23;
     }
 }
 

@@ -1,0 +1,7 @@
+D:\pkm\pkm\bin\Debug\pkm.exe.config
+D:\pkm\pkm\bin\Debug\pkm.exe
+D:\pkm\pkm\bin\Debug\pkm.pdb
+D:\pkm\pkm\obj\Debug\pkm.csprojAssemblyReference.cache
+D:\pkm\pkm\obj\Debug\pkm.csproj.CoreCompileInputs.cache
+D:\pkm\pkm\obj\Debug\pkm.exe
+D:\pkm\pkm\obj\Debug\pkm.pdb
