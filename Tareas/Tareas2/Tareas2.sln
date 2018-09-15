@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Excepciones", "10Excepciones\10Excepciones.csproj", "{D78FCCE2-42EA-43D4-A2A4-69306EFDCA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09HerenciaMultiple", "09HerenciaMultiple\09HerenciaMultiple.csproj", "{BFAC77F8-2115-46F9-9824-2F4ED3E31902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D78FCCE2-42EA-43D4-A2A4-69306EFDCA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78FCCE2-42EA-43D4-A2A4-69306EFDCA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78FCCE2-42EA-43D4-A2A4-69306EFDCA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78FCCE2-42EA-43D4-A2A4-69306EFDCA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAC77F8-2115-46F9-9824-2F4ED3E31902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAC77F8-2115-46F9-9824-2F4ED3E31902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAC77F8-2115-46F9-9824-2F4ED3E31902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAC77F8-2115-46F9-9824-2F4ED3E31902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {538C2C40-666D-42C6-87B8-B1FFE6B029E6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\bin\Debug\09HerenciaMultiple.exe.config
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\bin\Debug\09HerenciaMultiple.exe
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\bin\Debug\09HerenciaMultiple.pdb
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\09HerenciaMultiple.csprojAssemblyReference.cache
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\_09HerenciaMultiple.Form1.resources
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\_09HerenciaMultiple.Properties.Resources.resources
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\09HerenciaMultiple.csproj.GenerateResource.cache
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\09HerenciaMultiple.csproj.CoreCompileInputs.cache
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\09HerenciaMultiple.exe
+D:\Programación 4S\Tareas2\Tareas2\09HerenciaMultiple\obj\Debug\09HerenciaMultiple.pdb

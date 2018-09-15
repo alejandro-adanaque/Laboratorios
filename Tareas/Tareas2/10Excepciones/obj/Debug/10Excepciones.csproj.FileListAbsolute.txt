@@ -1,0 +1,10 @@
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\bin\Debug\10Excepciones.exe.config
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\bin\Debug\10Excepciones.exe
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\bin\Debug\10Excepciones.pdb
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\10Excepciones.csprojAssemblyReference.cache
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\_10Excepciones.frmEmpleado.resources
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\_10Excepciones.Properties.Resources.resources
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\10Excepciones.csproj.GenerateResource.cache
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\10Excepciones.csproj.CoreCompileInputs.cache
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\10Excepciones.exe
+D:\Programación 4S\Tareas2\Tareas2\10Excepciones\obj\Debug\10Excepciones.pdb
